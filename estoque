@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+
+        document.write("<center>")
+        document.write("<h1 color='blue' size='4'>RESULTADO:<h1>")
+
+      $peca = prompt("Quantas peças tem no estoque?")
+      document.write("<br>")
+
+     if($peca < 50)
+      {
+        document.write("<table>")
+        document.write("<tr bgcolor='#0000FF'>")
+        document.write("<td align='center'><b>PEÇAS EM ESTOQUE</b></td>")
+        document.write("</tr>")
+        document.write("<tr>")
+        document.write("<td align='center'><b>" + $peca + "</b></td>")
+        document.write("<td align='center'> <img src='img12/estoque vazio.jpg' width='60%'> </td>")
+        document.write("</tr>")
+        document.write("</table>")
+
+      }
+      else if($peca < 100)
+      {
+        document.write("<table>")
+        document.write("<tr bgcolor='#0000FF'>")
+        document.write("<td align='center'><b>PEÇAS EM ESTOQUE</b></td>")  
+        document.write("</tr>")
+        document.write("<tr>")
+        document.write("<td align='center'><b>" + $peca + "</b></td>")
+        document.write("<td align='center'> <img src='img12/estoque normal.jpg' width='60%'> </td>")
+        document.write("</tr>")
+        document.write("</table>")
+
+      }
+      else
+      {
+        document.write("<table>")
+        document.write("<tr bgcolor='#0000FF'>")
+        document.write("<td align='center'><b>PEÇAS EM ESTOQUE</b></td>") 
+        document.write("</tr>")
+        document.write("<tr>")
+        document.write("<td align='center'><b>" + $peca + "</b></td>")               
+        document.write("<td align='center'> <img src='img12/estoque grande.jpeg' width='60%'> </td>")
+        document.write("</tr>")
+        document.write("</table>")
+
+      }
+     
+
+ </script>
+</head>
+     
+<body>
+    
+</body>
+</html>
