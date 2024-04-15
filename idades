@@ -10,26 +10,42 @@
 
 
         document.write("<center>")
-        document.write("<h1 color='RED' size='4'>RESULTADO:<h1>")
+        document.write("<h1 color='blue' size='4'>RESULTADO:<h1>")
 
       $idade = prompt("Quantos anos você tem?")
       document.write("<br>")
      
       if($idade < 12) 
       {
-         document.write("CRIANÇA")
+        document.write("<table>")
+        document.write("<tr bgcolor='#1C1C1C'>")
+        document.write("</tr>") 
+        document.write("CRIANÇA")
+         document.write("<td align='center'> <img src='img12/criança falando.png' width='20%' > </td>")
       }
       else if($idade < 21)
       {
+        document.write("<table>")
+        document.write("<tr bgcolor='#1C1C1C'>")
+        document.write("</tr>")
         document.write("JOVEM")
+        document.write("<td align='center'> <img src='img12/jovem.avif' width='20%' > </td>")
       }
       else if($idade < 60)
       {
+        document.write("<table>")
+        document.write("<tr bgcolor='#1C1C1C'>")
+        document.write("</tr>")
         document.write("ADULTO")
+        document.write("<td align='center'> <img src='img12/adulto.avif' width='20%' > </td>")
       }
       else
       {
+        document.write("<table>")
+        document.write("<tr bgcolor='#1C1C1C'>")
+        document.write("</tr>")   
         document.write("IDOSO")
+        document.write("<td align='center'> <img src='img12/idoso.jpeg' width='20%' > </td>")
       }
 
 
@@ -38,3 +54,4 @@
     
 </body>
 </html>
+
