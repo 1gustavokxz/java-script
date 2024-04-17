@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <script>
+      $num_final = prompt("Escolha o ultimo número: ")
+
+       document.write("<center>")
+        document.write("<h1 color='RED' size='4'>ÍMPARES E PARES<h1>")
+        document.write("</center>")
+
+        for ($num = 1; $num <= $num_final; $num++)
+        {
+            if ($num % 2 == 0) {
+            document.write("<h3> Número ", $num, "- PAR")
+            document.write("<br>")
+        }
+            else {
+            document.write("<h3> Número ", $num, " -ÍMPAR")
+            document.write("<br>")
+        }
+    }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
